@@ -1,8 +1,19 @@
-A partir de la imagen que podrás descargar a continuación genera un mapa de
-imagen según las siguientes especificaciones:
-El área magenta púrpura está delimitada por los puntos 105,95 y 125,207.
-Cuando se pulsa envía al usuario a https://es.wikipedia.org/wiki/Oeste.
-El área verde oscuro está delimitada por los puntos 126,95 y 215,117.
-Cuando se pulsa envía al usuario a https://es.wikipedia.org/wiki/Norte.
-El área verde azul claro está delimitada por los puntos 128,140 y 215,160.
-Cuando se pulsa envía al usuario a https://es.wikipedia.org/wiki/Centro.
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de Imágenes</title>
+</head>
+<body>
+    <h1>Mapa de Imágenes</h1>
+    <img src="letra-f.jpg" alt="Mapa de Imagen" usemap="#image-map">
+
+    <map name="image-map">
+        <area shape="rect" coords="105,95,125,207" href="https://es.wikipedia.org/wiki/Oeste" alt="Oeste">
+        
+        <area shape="rect" coords="126,95,215,117" href="https://es.wikipedia.org/wiki/Norte" alt="Norte">
+        
+        <area shape="rect" coords="128,140,215,160" href="https://es.wikipedia.org/wiki/Centro" alt="Centro">
+    </map>
+</body>
+</html>
