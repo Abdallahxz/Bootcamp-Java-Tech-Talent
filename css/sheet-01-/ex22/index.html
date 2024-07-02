@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 22</title>
+<style>
+@keyframes moveRight {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.animate-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: moveRight 2s infinite alternate;
+}
+</style>
+</head>
+<body style="width: 100%;">
+<div class="animate-box">Cuadro animado</div>
+</body>
+</html>
