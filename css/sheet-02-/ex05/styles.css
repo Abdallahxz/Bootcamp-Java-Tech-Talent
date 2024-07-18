@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+  }
+  
+  .item {
+    background-color: #ccc;
+    padding: 10px;
+    margin:6px  ;
+  }
+  
+  .flexible {
+    flex: 1;
+  }
