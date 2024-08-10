@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.item {
+    background-color: #ccc;
+    padding: 10px;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .flex-container{
+        flex-direction: column;
+    }
+}
