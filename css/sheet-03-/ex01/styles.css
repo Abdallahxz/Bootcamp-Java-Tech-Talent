@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header button {
+    padding: 10px 30px;
+    border: 1px solid #000;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+
+header button:hover {
+    background: #000;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+div section {
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+section h2 {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+section div h2 {
+    font-size: 1.2rem;
+}
+
+section p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    color: #000000;
+}
+
+section button {
+    padding: 15px 30px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+section button:hover {
+    background: #373737;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+article div {
+    text-align: start;
+    max-width: 350px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background: #000;
+}
+
+article h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+article a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    background: #f2f2f2;
+    padding: 100px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer div h2, footer div h5 {
+    margin-bottom: 15px;
+}
+
+footer div h2 {
+    padding-right: 150px;
+}
+
+footer div ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer div ul li {
+    margin-bottom: 10px;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s ease;
+}
+
+footer div ul li a:hover {
+    color: #9b8d8d;
+}
+
+footer p, footer a {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+footer p a {
+    color: #000;
+    margin: 0 5px;
+    text-decoration: none;
+}
